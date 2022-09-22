@@ -12,5 +12,5 @@ class __MainOtherCog(Cog):
         print('I am ready!!!')
 
 
-def load_other_cogs(bot: Bot) -> None:
+def register_other_cogs(bot: Bot) -> None:
     bot.add_cog(__MainOtherCog(bot))
